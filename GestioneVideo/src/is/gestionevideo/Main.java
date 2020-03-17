@@ -66,6 +66,8 @@ public class Main {
 		gestionevideo.caricaVideo(v2);
 		gestionevideo.caricaVideo(v3);
 		gestionevideo.caricaVideo(v4);
+		gestionevideo.caricaVideo(v5);
+
 
 		ArrayList<Video> v_ricerca = gestionevideo.ricercaVideo(Sport.CALCIO, "Samp");
 
