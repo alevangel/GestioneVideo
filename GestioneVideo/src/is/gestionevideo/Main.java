@@ -49,7 +49,7 @@ public class Main {
 		VideoApprofondimento v4 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
 
 		
-		nome_evento = "Commento SRC Napoli-Juve";
+		nome_evento = "Commento S.C. Napoli-Juve";
 
 		data_evento = LocalDate.of(2019, Month.SEPTEMBER, 14);
 
