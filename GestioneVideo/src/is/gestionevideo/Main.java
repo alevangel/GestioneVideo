@@ -48,6 +48,14 @@ public class Main {
 
 		VideoApprofondimento v4 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
 
+		
+		nome_evento = "Commento Napoli-Juve";
+
+		data_evento = LocalDate.of(2019, Month.SEPTEMBER, 14);
+
+		VideoApprofondimento v5 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
+
+		
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
 		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
 
@@ -75,6 +83,7 @@ public class Main {
 		gestionevideo.rimuoviVideo(v2);
 		gestionevideo.rimuoviVideo(v3);
 		gestionevideo.rimuoviVideo(v4);
+		gestionevideo.rimuoviVideo(v5);
 
 
 
