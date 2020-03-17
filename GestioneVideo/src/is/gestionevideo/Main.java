@@ -57,7 +57,7 @@ public class Main {
 
 		
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
-		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
+		v4.addGiornalista(new Giornalista("Modificabranch prova", "PLUTO"));
 
 
 
